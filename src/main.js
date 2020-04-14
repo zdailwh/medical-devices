@@ -4,6 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import 'lightbox2/dist/css/lightbox.min.css'
+import 'lightbox2/dist/js/lightbox.min.js'
+import './assets/css/style.css'
+import './assets/js/common.js'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

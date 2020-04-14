@@ -1,3 +1,4 @@
+const webpack = require("webpack")
 'use strict'
 const path = require('path')
 const utils = require('./utils')
@@ -36,6 +37,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'jquery': 'jquery'
     }
   },
   module: {
@@ -88,5 +90,14 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
+  plugins: [
+    // new webpack.optimize.CommonsChunkPlugin('common.js'),
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery',
+      'windows.jQuery': 'jquery'
+    })
+  ]
 }
