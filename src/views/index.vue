@@ -8,29 +8,6 @@
       </ul>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-          <p class="about_p">About us</p>
-          <h2 class="about_h2">公 司 简 介</h2>
-          <p class="about_line"></p>
-          <div class="col-xs-12 col-sm-12 col-md-5">
-            <img src="../assets/about.png" class="about_img" alt="公司简介">
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-7">
-            <p class="about_contents">
-              Golden Bridge International Investment Inc.<br>
-              Golden Bridge International Medical & Health Supplies . USA<br><br>
-              Add: 17800 Castleton St. suite 445,city of Industry,CA 91748<br>
-              Email: gbiimhsusa@gmail.com<br>
-              Website: <a href="http://www.gbiiimhs.com">www.gbiiimhs.com</a>
-            </p>
-            <router-link to="/guide/enter/aboutUs" class="about_more">了解更多</router-link>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="product_bg">
       <div class="container">
         <div class="row">
@@ -186,6 +163,28 @@
                 <br><em>国际质量管理和质量保证体系国际质量管理</em>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-bottom:30px;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <p class="about_p">About us</p>
+          <h2 class="about_h2">公 司 简 介</h2>
+          <p class="about_line"></p>
+          <div class="col-xs-12 col-sm-12 col-md-5">
+            <img src="../assets/aboutus1.jpg" class="about_img" alt="公司简介">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-7">
+            <p class="about_contents">
+              Golden Bridge International Medical & Health Care Supplies  is a California based supplier for medical equipment  and personal protection equipement (PPE) established in 2019. We have direct connections with many manufactures that provide our clients high quality yet low cost PPE products .All of our products are CE  FDA NIOSH-9016 certified and OSHA certified.<br><br>
+              Add: 17800 Castleton St. suite 445,city of Industry,CA 91748<br>
+              Email: gbiimhsusa@gmail.com<br>
+              Website: <a href="http://www.gbiiimhs.com">www.gbiiimhs.com</a>
+            </p>
+            <router-link to="/guide/enter/aboutUs" class="about_more">了解更多</router-link>
           </div>
         </div>
       </div>
