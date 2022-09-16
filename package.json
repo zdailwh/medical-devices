@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "bootstrap": "^3.3.4",
+    "bootstrap": "^3.4.1",
     "bxslider": "^4.2.14",
     "jquery": "^1.11.3",
     "lightbox2": "^2.11.1",
